@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 46rem;
+
+
+
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    ;
+    height: 49rem;
+    width: 100%;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: whitesmoke;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+
+
+}
+
+.btn:hover {
+    background: whitesmoke;
+    color: #2c2c2c;
+    border: none;
+    transition: all 0.4s;
+}
+
+#section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+
+}
+
+#section-b {
+    padding: 2rem;
+
+}
+
+#section-b ul {
+    list-style: none;
+}
+
+#section-b li {
+    background: whitesmoke;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.col-content {
+    padding: 1.5rem;
+}
+
+#section-c {
+    background: #eaeaea;
+    color: #333;
+    padding: 3rem;
+    
+}
+
+#section-d .box{
+    padding: 4rem;
+
+}
+#section-d .box:first-child{
+    background-color: darkslategrey;
+}
+#section-d .box a{
+    color: gold;
+    
+}
+footer{
+    background-color: rgb(21, 36, 36);
+    padding: 3rem;
+}
+footer a{
+    color: gold;
+}
